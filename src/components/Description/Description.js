@@ -1,9 +1,9 @@
 
 const Description=({data})=>{
-     
+     console.log(data);
   return (
      <label className="description">
-    {data.trans_result[0].dst}
+    {data}
   </label>)
 }
 
